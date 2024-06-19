@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Content on Background</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .background-container {
+            background-image: url('hii.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 80%; /* Adjust the max width as needed */
+        }
+        .center-content h1 {
+            margin: 0 200px 80px;
+        }
+        .center-content p {
+            margin: 0 0 100px;
+        }
+        .center-content a {
+            color: blue;
+            text-decoration: none;
+        }
+        .center-content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-container">
+        <div class="center-content">
+            <h1>DIGITAL LITERACY</h1>
+            <h3>About Digital Literacy Briefly in English and Telugu</h3>
+            | <a href="https://youtu.be/ivfQY3TsQJs">English_video_link</a> | 
+            <br>
+            <br>
+            | <a href="https://youtu.be/tKFmGBLllfs">Telugu_video_link</a> | 
+        </div>
+    </div>
+</body>
+</html>
